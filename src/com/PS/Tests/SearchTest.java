@@ -57,10 +57,10 @@ public class SearchTest {
 		career.clickOnSearchBtn();
 		
 		String categoryPlaceholder = career.verifyCategoryPlaceholder();
-		Assert.assertEquals(categoryPlaceholder.contains(categoryPlaceholder), true);
+		Assert.assertEquals(categoryPlaceholder.contains("Category"), true);
 		
 		String locationPlaceholder = career.verifyLocationPlaceholder();
-		Assert.assertEquals(locationPlaceholder.contains(locationPlaceholder), true);
+		Assert.assertEquals(locationPlaceholder.contains("Location"), true);
 		
 		wait = new WebDriverWait(driver, 3000);
 		
