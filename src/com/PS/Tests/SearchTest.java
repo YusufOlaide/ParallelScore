@@ -87,8 +87,6 @@ public class SearchTest {
 		});
 	}
 				
-
-	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
@@ -96,3 +94,6 @@ public class SearchTest {
 	}
 
 }
+
+//Bugs
+//1. The search icon button is not properly placed
