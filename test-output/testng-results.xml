@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29219" started-at="2020-10-19T03:06:44 WAT" finished-at="2020-10-19T03:07:13 WAT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29219" started-at="2020-10-19T03:06:44 WAT" finished-at="2020-10-19T03:07:13 WAT">
+      <class name="com.PS.Tests.SearchTest">
+        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.PS.Tests.SearchTest@bd8db5a]" name="Initialization" is-config="true" duration-ms="14" started-at="2020-10-19T03:06:44 WAT" finished-at="2020-10-19T03:06:44 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialization -->
+        <test-method status="PASS" signature="Launcher()[pri:0, instance:com.PS.Tests.SearchTest@bd8db5a]" name="Launcher" is-config="true" duration-ms="9357" started-at="2020-10-19T03:06:44 WAT" finished-at="2020-10-19T03:06:54 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launcher -->
+        <test-method status="PASS" signature="ValidateSearch()[pri:0, instance:com.PS.Tests.SearchTest@bd8db5a]" name="ValidateSearch" duration-ms="18782" started-at="2020-10-19T03:06:54 WAT" finished-at="2020-10-19T03:07:12 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.PS.Tests.SearchTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="1009" started-at="2020-10-19T03:07:12 WAT" finished-at="2020-10-19T03:07:13 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.PS.Tests.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
